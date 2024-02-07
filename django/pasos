@@ -1,0 +1,51 @@
+instalar python
+
+descargar python de la la pagina oficial
+
+descargar django de la pagina oficial
+
+pip install Django==version
+
+checar si lo tenemos instalado
+
+python
+
+
+import django
+django.version
+
+entorno virtual opcional
+
+virtualenv -p python3 env
+
+activar entorno virtual
+
+.\env\Scripts\activate
+
+pip list
+
+django-admin startproject Proyecto
+
+
+en linux
+
+virtualenv -p python3 env
+source env/bin/activate
+pip install Django==4.2.5
+pip list
+#CREAR UN PROYECTO
+django-admin startproject Proyecto_API
+#CREAR UNA APP
+django-admin startapp api
+#INSTALAR MYSQLCLIENT DEPENDENCIAS
+pip install mysqlclient pymysql
+#HACER MIGRACIONES
+python manage.py migrate
+
+python manage.py makemigrations
+
+#CREAR SUPERUSUARIO PARA ADMIN
+python manage.py createsuperuser
+127.0.0.1:8000/admin
+#EJECUTAR SERVIDOR
+python manage.py runserver
